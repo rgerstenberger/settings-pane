@@ -1,0 +1,24 @@
+{
+  "name": "radium-settings-inspector",
+  "author": "Rob Gerstenberger",
+  "dependencies": {
+    "react": "^0.12.2",
+    "radium": "^0.9.1",
+    "radium-bootstrap": "0.0.1",
+    "object-assign": "^2.0.0",
+    "events": "^1.0.2",
+    "browser-filesaver": "^1.0.0"
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.1",
+    "jsx-loader": "^0.12.2",
+    "webpack": "^1.5.3",
+    "webpack-dev-server": "^1.7.0",
+    "gulp": "^3.8.11",
+    "gulp-rimraf": "^0.1.1",
+    "gulp-react": "^2.0.0"
+  },
+  "scripts": {
+    "examples": "webpack-dev-server --config examples/webpack.config.js --no-info --content-base examples/"
+  }
+}
