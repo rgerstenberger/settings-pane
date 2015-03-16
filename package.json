@@ -16,7 +16,8 @@
     "webpack-dev-server": "^1.7.0",
     "gulp": "^3.8.11",
     "gulp-rimraf": "^0.1.1",
-    "gulp-react": "^2.0.0"
+    "gulp-react": "^2.0.0",
+    "blob": "0.0.4"
   },
   "scripts": {
     "examples": "webpack-dev-server --config examples/webpack.config.js --no-info --content-base examples/"
